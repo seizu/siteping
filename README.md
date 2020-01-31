@@ -37,7 +37,7 @@ Installation
 
 Default setting of siteping.sh
 ```
-count=5       (Sends 5 notifications every 60 seconds when a host is down or unavailable.)
+count=5       (Sends a notification every 60 seconds 5 times when a host is down or unavailable.)
 interval=60   (Checks the host list every 60 seconds) 
 timeout=1     (ping timeout 1 second)
 ```
