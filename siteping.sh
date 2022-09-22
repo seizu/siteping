@@ -1,6 +1,6 @@
 #!/bin/bash
 path=`dirname $0`
-pkill -P `cat $path/siteping.pid`
+kill -9 `cat $path/siteping.pid`
 echo $$ > $path/siteping.pid
 
 #notification count
