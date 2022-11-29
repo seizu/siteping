@@ -100,7 +100,13 @@ Telegram-Bot information: <a href="https://core.telegram.org/bots" rel="nofollow
    sudo chmod 755 tpush.sh</code>
 			</pre>
 			<ol start="4">
-				<li>Edit tpush.sh and replace YOUR_TOKEN with your Telegram-Bot token.</li>
+<li>
+<p dir="auto">Edit tpush.sh and replace YOUR_TOKEN with your Telegram-Bot token and the chatId with your chatId.<br>
+a) To get the chatId add the Telegram BOT to the your group<br>
+b) open <code>https://api.telegram.org/bot&lt;YOUR_TOKEN&gt;/getUpdates</code> in a browser<br>
+c) copy the chat:id from the json respons.<br>
+If you get an empty result, add the bot again to the group.</p>
+</li>
 				<li>Edit siteping.sh and add new host names or change the existing host names for your needs.
 Don't remove the default counter value 1 at the end of each host name.
 If you do not want to receive a notification every hour, change the default counter value to 5</li>
