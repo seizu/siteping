@@ -16,9 +16,10 @@ Installation
    sudo chmod 755 tpush.sh
 ```   
 4) Edit tpush.sh and replace YOUR_TOKEN with your Telegram-Bot token and the chatId with your chatId.  
-   a) To get the chatId add the Telegram BOT to the your group  
-   b) open `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates` in a browser  
-   c) copy the chat:id<YOUR CHAT ID> from the json respons.  
+   a) to get the chatId add the Telegram BOT to the your group
+   b) post a message in your group
+   c) open `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates` in a browser  
+   d) copy the chat:id<YOUR CHAT ID> from the json respons.  
       If you get an empty result, add the bot again to the group.
 
 5) Edit siteping.sh and add new host names or change the existing host names for your needs.
