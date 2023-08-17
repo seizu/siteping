@@ -47,3 +47,15 @@ count=5       (Sends a notification every 60 seconds 5 times when a host is down
 interval=60   (Checks the host list every 60 seconds) 
 timeout=1     (ping timeout 1 second)
 ```
+
+Windows version
+---------------
+1) copy siteping.js and tpush.bat to YOUR_HOME_DIR  
+2) Edit tpush.bat and replace YOUR_TOKEN with your Telegram-Bot token and the YOUR_CHAT_ID with your chatId.  
+3) Edit siteping.js as described above
+4) Open Command prompt WinKey+R type cmd and click OK  
+5) From the windows command line go to YOUR_HOME_DIR and run siteping, e.g.:  
+```
+   cd c:\users\<YOUR_USERNAME>\Documents\
+   cscript /nologo siteping.js
+```
