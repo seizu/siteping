@@ -14,7 +14,7 @@ var site = [
             "www.microsoft.com",1,
             "www.raspberrypi.org",1
            ]
-            
+           
 while(1) {           
   for(var i=0;i < site.length; i+=2) {
       WScript.Echo(site[i])    
