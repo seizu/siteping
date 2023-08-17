@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 1 ];then
-   echo "Usage: push.sh [message_text]"
+   echo "Usage: tpush.sh [message_text]"
    exit 1
 fi
 
